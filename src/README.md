@@ -1,4 +1,4 @@
-### Question 1:
+### Problem:
 1.	Suppose our input data to a MapReduce operation consists of integer values. The map function takes an integer i and produces the list of pairs (p,i) such that p is a prime divisor of i. For example, Map(12)=[(2,12),(3,12)].
 The reduce function is defined to be “addition”. That is, Reduce (p, [i1,i2,….,ik]) is (p, i1+i2+…+ik). Compute the output if the input is the set of integers 15, 21,24, 30, 49. Elaborate on your response, make sure you explicitly show the steps including Map step, group by keys, and reduce step.
 
